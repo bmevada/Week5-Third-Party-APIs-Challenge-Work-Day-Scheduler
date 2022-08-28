@@ -4,9 +4,11 @@
 
 A simple calendar application was created to allow the user to to plan and create event on an hourly basis of a working day. Once the events of the days have been entered into the planner, the user can save these and also modify these as required.
 
- This app runs in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Based on the time of the event, the user is able vie the current time and present event on the palnner, which is shown in a different colour from the past events and future events.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+ This app runs in the browser and feature dynamically updated HTML, JavaScript,CSS powered by jQuery, Bootstrap and Moment JS.
+
+
 
 ## User Story
 
