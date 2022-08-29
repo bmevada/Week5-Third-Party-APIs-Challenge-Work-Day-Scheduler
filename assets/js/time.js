@@ -31,14 +31,14 @@ $(document).ready(function () {
   initialise();
 
   function renderEvents() {
-      $("textarea").each(function() {
-          this.value = "";
-      })
-      
-      $.each(storedEvents, function() {
-          $("textarea." + this.eventTime)[0].value = this.eventText;
-      }) 
-
+    $("textarea").each(function() {
+         this.value = "";
+    })
+    
+    $.each(storedEvents, function() {
+        $("textarea." + this.eventTime)[0].value = this.eventText;
+    }) 
+  }
     
 
   //Retrieve events from local storage to add to planner
