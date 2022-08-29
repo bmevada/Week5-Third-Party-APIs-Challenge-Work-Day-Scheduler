@@ -1,6 +1,6 @@
 # Week5-Third-Party-APIs: Work Day Scheduler
 
-## Your Task
+## Calendar Application
 
 A simple calendar application was created to allow the user to to plan and create event on an hourly basis of a working day. Once the events of the days have been entered into the planner, the user can save these and also modify these as required.
 
@@ -8,6 +8,12 @@ Based on the time of the event, the user is able vie the current time and presen
 
  This app runs in the browser and feature dynamically updated HTML, JavaScript,CSS powered by jQuery, Bootstrap and Moment JS.
 
+
+## Deployed Website
+
+[Link to website] https://bmevada.github.io/Week5-Third-Party-APIs-Challenge-Work-Day-Scheduler.html (Links to an external site.)
+
+[Link to Github] https://github.com/bmevada/Week5-Third-Party-APIs-Challenge-Work-Day-Scheduler.git
 
 
 ## User Story
@@ -18,19 +24,18 @@ SO THAT I can manage my time effectively
 
 ## Acceptance Criteria
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
+GIVEN the user is presented with a daily planner to create a schedule for the day
+WHEN the user opens the planner
+THEN the current day, date and time is displayed at the top of the calendar
+WHEN the user scrolls down
+THEN the user is presented with timeblocks for standard business hours
+WHEN the user views the timeblocks for that day
 THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
+WHEN the user clicks into a timeblock
+THEN the can enter an event
+WHEN the user clicks the save button for that timeblock
 THEN the text for that event is saved in local storage
-WHEN I refresh the page
+WHEN the page is refreshed
 THEN the saved events persist
 ```
 
