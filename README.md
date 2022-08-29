@@ -4,7 +4,7 @@
 
 A simple calendar application was created to allow the user to to plan and create event on an hourly basis of a working day. Once the events of the days have been entered into the planner, the user can save these and also modify these as required.
 
-Based on the time of the event, the user is able vie the current time and present event on the palnner, which is shown in a different colour from the past events and future events.
+Based on the time of the event, the user is able view the current time and present event on the palnner, which is shown in a different colour from the past events and future events.
 
  This app runs in the browser and feature dynamically updated HTML, JavaScript,CSS powered by jQuery, Bootstrap and Moment JS.
 
