@@ -1,4 +1,4 @@
-// Add moment.js file for current date and time
+// Add time.js file for current date and time
 $(document).ready(function () {
   let NowMoment = moment().format("MMMM Do YYYY");
   let displayDate = document.getElementById("currentDay");
