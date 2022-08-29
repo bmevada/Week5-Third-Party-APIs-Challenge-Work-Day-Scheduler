@@ -4,6 +4,22 @@ body {
   line-height: 1;
 }
 
+/* Add style to container */
+.container {
+  margin: 60px;
+  border-radius: solid 1px black;
+}
+
+.row {
+  border-radius: solid 1px black;
+}
+
+/* Add style to container */
+.date {
+  padding: 30px;
+  text-align: center;
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -58,6 +74,15 @@ textarea {
 .future {
   background-color: #77dd77;
   color: white;
+}
+
+/* Add button style */
+button {
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin-top: 5px;
+  background-color: #ffffff;
 }
 
 .saveBtn {
