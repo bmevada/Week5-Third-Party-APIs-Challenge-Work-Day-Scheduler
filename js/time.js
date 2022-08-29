@@ -1,19 +1,35 @@
-// Add time.js file for current date and time
 $(document).ready(function () {
-  let NowMoment = moment().format("MMMM Do YYYY");
-  let displayDate = document.getElementById("currentDay");
-  displayDate.innerHTML = NowMoment;
-  let currentHour = moment().format("HH");
+  //  View current date and Time
+  var currentDay = moment().format('dddd, MMMM Do, YYYY');
+  $("#currentDay").text(currentDay);
 
-    // Onclick clear local storage and clear contents
+  //Each event in the planner is compared to the current time to indicate if it is a past, present or future event
+  var currentHour = moment().format('H');
+  $(".time-block").each(function() {
+    if (parseInt(currentHour) === parseInt(this.id)) {
+      $(this).addClass("present");
+    } else if (parseInt(currentHour) > parseInt(this.id)) {
+     $(this).addClass("past");
+    } else {
+      $(this).addClass("future");
+    }
+  })
+
+  $(".saveBtn").each(function() {
+    if (parseInt(currentHour) === parseInt(this.id.split("-")[1])) {
+      $(this).addClass("present");
+    } else if (parseInt(currentHour) > parseInt(this.id.split("-")[1])) {
+      $(this).addClass("past");
+    } else {
+      $(this).addClass("future");
+    }
+  })
+
+  //Events are saved to local storage
 
 
-    //Take time from the planner and compare with current time
+    
 
-
-    //Add time and events to local storage
-
-
-    //Retrieve events from local storage to add to planner
-
+  //Retrieve events from local storage to add to planner
+  
 }
