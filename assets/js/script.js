@@ -1,9 +1,8 @@
 $(document).ready(function () {
   //  View current date and Time
-  var currentDay = moment().format('dddd, MMMM Do, YYYY');
+  var currentDay = moment().format('dddd, MMMM Do, YYYY, h:mm:ss a');
   $("#currentDay").text(currentDay);
-  var time = moment().format("hh:mm:ss");
-  $("#currentTime").text(time);
+
 
   //Each event in the planner is compared to the current time to indicate if it is a past, present or future event
   var currentHour = moment().format('H');
@@ -26,12 +25,13 @@ $(document).ready(function () {
       $(this).addClass("future");
     }
   })
-
+   
   //Events are saved to local storage
-  var storedEvents = [];
+  function storedEvents (){
+    var storedEvents = JSON.parse(window.localStorage.getItem('storedEvents')) || [];
+    console.log();
 
-  initialise();
-
+  }
   function renderEvents() {
     $("textarea").each(function() {
          this.value = "";
@@ -41,7 +41,6 @@ $(document).ready(function () {
         $("textarea." + this.eventTime)[0].value = this.eventText;
     }) 
   }
-    
 
   //Retrieve events from local storage to add to planner
     $("#hour8 .description").val(localStorage.getItem("hour8"));
