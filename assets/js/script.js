@@ -2,6 +2,8 @@ $(document).ready(function () {
   //  View current date and Time
   var currentDay = moment().format('dddd, MMMM Do, YYYY');
   $("#currentDay").text(currentDay);
+  var time = moment().format("hh:mm:ss");
+  $("#currentTime").text(time);
 
   //Each event in the planner is compared to the current time to indicate if it is a past, present or future event
   var currentHour = moment().format('H');
