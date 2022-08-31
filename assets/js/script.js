@@ -9,7 +9,7 @@ $(document).ready(function () {
     var text = $(this).siblings(".description").val();
     var time = $(this).parent().attr("id");
 
-    //Save to local storage
+    //Events are saved to local storage
     localStorage.setItem(time, text);
   })
 
@@ -52,7 +52,6 @@ $(document).ready(function () {
       console.log(this)
       var blockHour = ($(this).attr("id").replace("h", ""));
       blockHour = parseInt(blockHour)
-      // console.log(p.replace('dog', 'monkey'));
       console.log(blockHour, currentHour)
 
       //Each event in the planner is compared to the current time to indicate if it is a past, present or future event
