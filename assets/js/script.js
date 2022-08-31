@@ -6,47 +6,26 @@ $(document).ready(function () {
   // Assign save button
   $(".saveBtn").on("click", function (){
     console.log(this);
-    var text = $(this).siblings (".description").val();
+    var text = $(this).siblings(".description").val();
     var time = $(this).parent().attr("id");
 
     //Save to local storage
     localStorage.setItem(time, text);
   })
 
-  // // //Each event in the planner is compared to the current time to indicate if it is a past, present or future event
-  // var currentHour = moment().format('H');
-  // $(".time-block").each(function() {
-  //   if (parseInt(currentHour) === parseInt(this.id)) {
-  //     $(this).addClass("present");
-  //   } else if (parseInt(currentHour) > parseInt(this.id)) {
-  //    $(this).addClass("past");
-  //   } else {
-  //     $(this).addClass("future");
-  //   }
-  // })
-
-  // $(".saveBtn").each(function() {
-  //   if (parseInt(currentHour) === parseInt(this.id.split("-")[1])) {
-  //     $(this).addClass("present");
-  //   } else if (parseInt(currentHour) > parseInt(this.id.split("-")[1])) {
-  //     $(this).addClass("past");
-  //   } else {
-  //     $(this).addClass("future");
-  //   }
-  // })
    
   // //Events are saved to local storage
   function storedEvents (){
     var storedEvents = JSON.parse(window.localStorage.getItem('storedEvents')) || [];
     console.log();
 
-  // }
-  // function renderEvents() {
+  }
+  function renderEvents() {
     $("textarea").each(function() {
          this.value = "";
-  //   })
+    })
     
-  //   $.each(storedEvents, function() {
+    $.each(storedEvents, function() {
         $("textarea." + this.eventTime)[0].value = this.eventText;
     }) 
   }
@@ -63,8 +42,6 @@ $(document).ready(function () {
     $("#hour16 .description").val(localStorage.getItem("hour16"));
     $("#hour17 .description").val(localStorage.getItem("hour17"));
     $("#hour18 .description").val(localStorage.getItem("hour18"));
-
-    // timeTracker();
 
   //Event tracker
   function hourTracker() {
