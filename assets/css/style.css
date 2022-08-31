@@ -53,9 +53,10 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #06aed5;
+  color: #ffffff;
   border-top: 1px dashed #000000;
+  text-align: center;
 }
 
 /* Background colour to correspond with past events */
