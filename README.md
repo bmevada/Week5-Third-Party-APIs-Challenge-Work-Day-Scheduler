@@ -1,4 +1,4 @@
-# Week5: Work Day Scheduler
+# Week 5: Work Day Scheduler
 (Using Third Party API)
 
 ## Calendar Application
