@@ -12,7 +12,7 @@ Based on the time of the event, the user is able view the current time and prese
 
 ## Deployed Website
 
-[Link to website] https://bmevada.github.io/Work-Day-Scheduler.html (Links to an external site.)
+[Link to website] https://bmevada.github.io/Work-Day-Scheduler/(Links to an external deployed site.)
 
 [Link to Github] https://github.com/bmevada/Work-Day-Scheduler.git
 
@@ -38,9 +38,7 @@ WHEN the user clicks the save button for that timeblock
 THEN the text for that event is saved in local storage
 WHEN the page is refreshed
 THEN the saved events persist
-```
 
-The following animation demonstrates the application functionality:
 
 
 
