@@ -20,29 +20,41 @@ Based on the time of the event, the user is able view the current time and prese
 ## User Story
 
 AS AN employee with a busy schedule
+
 I WANT to add important events to a daily planner
+
 SO THAT I can manage my time effectively
 
 ## Acceptance Criteria
 
 GIVEN the user is presented with a daily planner to create a schedule for the day
+
 WHEN the user opens the planner
+
 THEN the current day, date and time is displayed at the top of the calendar
 
 <img src= './images/main-screen.png'>
 
 WHEN the user scrolls down
+
 THEN the user is presented with timeblocks for standard business hours
+
 WHEN the user views the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past (grey), present (red), or future (green).
+
+THEN each timeblock is color coded to indicate whether it is in the past (grey), present (red), or future (green)
+
 WHEN the user clicks into a timeblock
+
 THEN the can enter an event
+
 WHEN the user clicks the save button for that timeblock
 
 <img src= './images/event-added.png'>
 
 THEN the text for that event is saved in local storage
 WHEN the page is refreshed
+
+
 THEN the saved events persist
 
 <img src= './images/event-storage-recall.png'>
