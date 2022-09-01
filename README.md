@@ -1,4 +1,5 @@
-# Week5-Third-Party-APIs: Work Day Scheduler
+# Week5: Work Day Scheduler
+(Using Third Party API)
 
 ## Calendar Application
 
@@ -11,9 +12,9 @@ Based on the time of the event, the user is able view the current time and prese
 
 ## Deployed Website
 
-[Link to website] https://bmevada.github.io/Week5-Third-Party-APIs-Challenge-Work-Day-Scheduler.html (Links to an external site.)
+[Link to website] https://bmevada.github.io/Work-Day-Scheduler.html (Links to an external site.)
 
-[Link to Github] https://github.com/bmevada/Week5-Third-Party-APIs-Challenge-Work-Day-Scheduler.git
+[Link to Github] https://github.com/bmevada/Work-Day-Scheduler.git
 
 
 ## User Story
