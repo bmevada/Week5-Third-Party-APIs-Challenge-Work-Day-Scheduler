@@ -9,7 +9,6 @@ Based on the time of the event, the user is able view the current time and prese
 
  This app runs in the browser and feature dynamically updated HTML, JavaScript,CSS powered by jQuery, Bootstrap and Moment JS. It is a clean and polished, responsive user interface that adapts to multiple screen sizes and responds to user interface.
 
-
 ## Deployed Website
 
 [Link to website] https://bmevada.github.io/Work-Day-Scheduler/ (Links to an external deployed site)
