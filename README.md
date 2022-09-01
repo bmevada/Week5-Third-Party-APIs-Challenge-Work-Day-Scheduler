@@ -12,7 +12,7 @@ Based on the time of the event, the user is able view the current time and prese
 
 ## Deployed Website
 
-[Link to website] https://bmevada.github.io/Work-Day-Scheduler/(Links to an external deployed site.)
+[Link to website] https://bmevada.github.io/Work-Day-Scheduler/ (Links to an external deployed site.)
 
 [Link to Github] https://github.com/bmevada/Work-Day-Scheduler.git
 
