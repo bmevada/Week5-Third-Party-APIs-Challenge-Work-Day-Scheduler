@@ -7,7 +7,7 @@ A simple calendar application was created to allow the user to to plan and creat
 
 Based on the time of the event, the user is able view the current time and present event on the plannner, which is shown in a different colour from the past events and future events.
 
- This app runs in the browser and feature dynamically updated HTML, JavaScript,CSS powered by jQuery, Bootstrap and Moment JS. It is a clean and polished, responsive user interface that adapts to multiple screen sizes and responds to user interface.
+ This app runs in the browser and feature dynamically updated HTML, JavaScript, CSS powered by jQuery, Bootstrap and Moment JS. It is a clean and polished, responsive user interface that adapts to multiple screen sizes and responds to user interface.
 
 ## Deployed Website
 
