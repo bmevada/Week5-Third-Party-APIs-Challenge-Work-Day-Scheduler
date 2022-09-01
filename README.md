@@ -31,7 +31,7 @@ THEN the current day, date and time is displayed at the top of the calendar
 WHEN the user scrolls down
 THEN the user is presented with timeblocks for standard business hours
 WHEN the user views the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past (grey), present (red), or future (green)
+THEN each timeblock is color coded to indicate whether it is in the past (grey), present (red), or future (green).
 WHEN the user clicks into a timeblock
 THEN the can enter an event
 WHEN the user clicks the save button for that timeblock
