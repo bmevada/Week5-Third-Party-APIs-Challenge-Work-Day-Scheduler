@@ -12,7 +12,7 @@ Based on the time of the event, the user is able view the current time and prese
 
 ## Deployed Website
 
-[Link to website] https://bmevada.github.io/Work-Day-Scheduler/ (Links to an external deployed site.)
+[Link to website] https://bmevada.github.io/Work-Day-Scheduler/ (Links to an external deployed site)
 
 [Link to Github] https://github.com/bmevada/Work-Day-Scheduler.git
 
@@ -31,7 +31,7 @@ THEN the current day, date and time is displayed at the top of the calendar
 WHEN the user scrolls down
 THEN the user is presented with timeblocks for standard business hours
 WHEN the user views the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+THEN each timeblock is color coded to indicate whether it is in the past (grey), present (red), or future (green)
 WHEN the user clicks into a timeblock
 THEN the can enter an event
 WHEN the user clicks the save button for that timeblock
