@@ -51,6 +51,7 @@ WHEN the user clicks the save button for that timeblock
 <img src= './images/event-added.png'>
 
 THEN the text for that event is saved in local storage
+
 WHEN the page is refreshed
 
 
