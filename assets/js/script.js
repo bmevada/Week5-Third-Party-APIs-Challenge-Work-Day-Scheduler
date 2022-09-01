@@ -4,7 +4,7 @@ $(document).ready(function () {
   $("#currentDay").text(currentDay);
 
   // Assign save button
-  $(".saveBtn").on("click", function (){
+  $(".saveBtn").on("click", function () {
     console.log(this);
     var text = $(this).siblings(".description").val();
     var time = $(this).parent().attr("id");
@@ -13,7 +13,7 @@ $(document).ready(function () {
     localStorage.setItem(time, text);
   })
 
-   
+
   // // //Events are saved to local storage
   // function storedEvents (){
   //   var storedEvents = JSON.parse(window.localStorage.getItem('storedEvents')) || [];
@@ -24,24 +24,24 @@ $(document).ready(function () {
   //   $("textarea").each(function() {
   //        this.value = "";
   //   })
-    
+
   //   $.each(storedEvents, function() {
   //       $("textarea." + this.eventTime)[0].value = this.eventText;
   //   }) 
   // }
 
   //Retrieve events from local storage to add to planner
-    $("#hour8 .description").val(localStorage.getItem("hour8"));
-    $("#hour9 .description").val(localStorage.getItem("hour9"));
-    $("#hour10 .description").val(localStorage.getItem("hour10"));
-    $("#hour11 .description").val(localStorage.getItem("hour11"));
-    $("#hour12 .description").val(localStorage.getItem("hour12"));
-    $("#hour13 .description").val(localStorage.getItem("hour13"));
-    $("#hour14 .description").val(localStorage.getItem("hour14"));
-    $("#hour15 .description").val(localStorage.getItem("hour15"));
-    $("#hour16 .description").val(localStorage.getItem("hour16"));
-    $("#hour17 .description").val(localStorage.getItem("hour17"));
-    $("#hour18 .description").val(localStorage.getItem("hour18"));
+  $("#hour8 .description").val(localStorage.getItem("hour8"));
+  $("#hour9 .description").val(localStorage.getItem("hour9"));
+  $("#hour10 .description").val(localStorage.getItem("hour10"));
+  $("#hour11 .description").val(localStorage.getItem("hour11"));
+  $("#hour12 .description").val(localStorage.getItem("hour12"));
+  $("#hour13 .description").val(localStorage.getItem("hour13"));
+  $("#hour14 .description").val(localStorage.getItem("hour14"));
+  $("#hour15 .description").val(localStorage.getItem("hour15"));
+  $("#hour16 .description").val(localStorage.getItem("hour16"));
+  $("#hour17 .description").val(localStorage.getItem("hour17"));
+  $("#hour18 .description").val(localStorage.getItem("hour18"));
 
   //Event tracker
   function hourTracker() {
@@ -75,5 +75,5 @@ $(document).ready(function () {
       }
     })
   }
-  hourTracker(); 
+  hourTracker();
 })
