@@ -15,22 +15,6 @@ $(document).ready(function () {
   })
 
 
-  // // //Events are saved to local storage
-  // function storedEvents (){
-  //   var storedEvents = JSON.parse(window.localStorage.getItem('storedEvents')) || [];
-  //   console.log();
-
-  // }
-  // function renderEvents() {
-  //   $("textarea").each(function() {
-  //        this.value = "";
-  //   })
-
-  //   $.each(storedEvents, function() {
-  //       $("textarea." + this.eventTime)[0].value = this.eventText;
-  //   }) 
-  // }
-
   //Retrieve events from local storage to add to planner
   $("#h8 .description").val(localStorage.getItem("h8"));
   $("#h9 .description").val(localStorage.getItem("h9"));
